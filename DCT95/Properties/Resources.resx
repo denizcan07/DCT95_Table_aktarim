@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DCT95" xml:space="preserve">
+    <value>0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAANQAAAAAAAAAAEAAA/v///wAAAAD+////AAAAADQAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8JCBAAAAYFAFQ4zQfJwAEABgcAAOEAAgCwBMEAAgAAAOIAAABcAHAABQAAYmVraXIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEIAAgCwBGEBAgAAAMABAAA9AQIAAQCcAAIAEQAZAAIAAAASAAIAAAATAAIAAACvAQIAAAC8AQIAAAA9ABIAAAAAAIBwkzA4AAAAAAABAFgCQAACAAAAjQACAAAAIgACAAAADgACAAEAtwECAAAA2gACAAAAMQAeANwAAAAIAJABAAAAAqIABwFDAGEAbABpAGIAcgBpADEAHgDcAAAACACQAQAAAAKifwcBQwBhAGwAaQBiAHIAaQAxAB4A3AAAAAgAkAEAAAACon8HAUMAYQBsAGkAYgByAGkAMQAeANwAAAAIAJABAAAAAqJ/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APX/IAAA9AAAAAAAAAAAwCDgABQABgAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAAAAEAIAAAAAAAAAAAAAACwCDgABQABgAAAPX/IAAAtAAAAAAAAAAEmyDgABQABgAAAPX/IAAAtAAAAAAAAAAEryDgABQABgAAAPX/IAAAtAAAAAAAAAAEiSDgABQABgAAAPX/IAAAtAAAAAAAAAAEmiDgABQABgAAAPX/IAAAtAAAAAAAAAAEnyDgABQABgAAAPX/IAAAtAAAAAAAAAAEqiDgABQABgAAAPX/IAAAtAAAAAAAAAAErCDgABQABgAAAPX/IAAAtAAAAAAAAAAEryDgABQABgAAAPX/IAAAtAAAAAAAAAAEliDgABQABgAAAPX/IAAAtAAAAAAAAAAEqyDgABQABgAAAPX/IAAAtAAAAAAAAAAErCDgABQABgAAAPX/IAAAtAAAAAAAAAAEqyDgABQABwAAAPX/IAAAtAAAAAAAAAAErCDgABQABwAAAPX/IAAAtAAAAAAAAAAEryDgABQABwAAAPX/IAAAtAAAAAAAAAAEliDgABQABwAAAPX/IAAAtAAAAAAAAAAEqyDgABQABwAAAPX/IAAAtAAAAAAAAAAEsSDgABQABwAAAPX/IAAAtAAAAAAAAAAEuSDgABQABwAAAPX/IAAAtAAAAAAAAAAEsSDgABQABwAAAPX/IAAAtAAAAAAAAAAEtSDgABQABwAAAPX/IAAAtAAAAAAAAAAEtyDgABQABwAAAPX/IAAAtAAAAAAAAAAEsyDgABQABwAAAPX/IAAAtAAAAAAAAAAEviDgABQABwAAAPX/IAAAtAAAAAAAAAAEuSDgABQACAAAAPX/IAAAtAAAAAAAAAAErSDgABQACQAAAPX/IAAAlBERlwuXCwAEliDgABQACgAAAPX/IAAAlGZmvx+/HwAEtyDgABQABgArAPX/IAAA+AAAAAAAAAAAwCDgABQABgApAPX/IAAA+AAAAAAAAAAAwCDgABQABgAsAPX/IAAA+AAAAAAAAAAAwCDgABQABgAqAPX/IAAA+AAAAAAAAAAAwCDgABQACwAAAPX/IAAA9AAAAAAAAAAAwCDgABQADAAAAPX/IAAAtAAAAAAAAAAEqiDgABQADQAAAPX/IAAA1ABQAACAGAAAwCDgABQADgAAAPX/IAAA1ABQAAAAFgAAwCDgABQADwAAAPX/IAAA1AAgAAAAFgAAwCDgABQADwAAAPX/IAAA9AAAAAAAAAAAwCDgABQAEAAAAPX/IAAAlBERlwuXCwAEryDgABQAEQAAAPX/IAAA1ABgAAAAGgAAwCDgABQAEgAAAPX/IAAAtAAAAAAAAAAEqyDgABQABgAAAPX/IAAAnBERFgsWCwAEmiDgABQAEwAAAPX/IAAAlBERvx+/HwAEliDgABQABgAJAPX/IAAA+AAAAAAAAAAAwCDgABQAFAAAAPX/IAAA9AAAAAAAAAAAwCDgABQAFQAAAPX/IAAA1ABhAACxGAAAwCDgABQAFgAAAPX/IAAA9AAAAAAAAAAAwCDgABQAAAAxAAEAIAAABAAAAAAAAAACwCDgABQAAAAOAAEAIAAABAAAAAAAAAACwCDgABQABQAAAAEACgAA/BERvx+/HwAGCSDgABQABQACAAEACgAA/BERvx+/HwAGCSDgABQAAAACAAEAIAAABAAAAAAAAAACwCDgABQABQCnAAEACgAA/BERvx+/HwAGCSDgABQAAACnAAEAIAAABAAAAAAAAAACwCB8CBQAfAgAAAAAAAAAAAAAAABFAKlWkN59CC0AfQgAAAAAAAAAAAAAAAAAAAAAAgANABQAAwAAAAEAAAAAXwC6IF8ALQ4ABQACfQgtAH0IAAAAAAAAAAAAAAAAAQAAAAIADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAn0ILQB9CAAAAAAAAAAAAAAAAAIAAAACAA0AFAADAAAAAQAAAABfALogXwAtDgAFAAJ9CC0AfQgAAAAAAAAAAAAAAAADAAAAAgANABQAAwAAAAEAAAAAXwC6IF8ALQ4ABQACfQgtAH0IAAAAAAAAAAAAAAAABAAAAAIADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAn0ILQB9CAAAAAAAAAAAAAAAAAUAAAACAA0AFAADAAAAAQAAAABfALogXwAtDgAFAAJ9CC0AfQgAAAAAAAAAAAAAAAAGAAAAAgANABQAAwAAAAEAAAAAXwC6IF8ALQ4ABQACfQgtAH0IAAAAAAAAAAAAAAAABwAAAAIADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAn0ILQB9CAAAAAAAAAAAAAAAAAgAAAACAA0AFAADAAAAAQAAAABfALogXwAtDgAFAAJ9CC0AfQgAAAAAAAAAAAAAAAAJAAAAAgANABQAAwAAAAEAAAAAXwC6IF8ALQ4ABQACfQgtAH0IAAAAAAAAAAAAAAAACgAAAAIADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAn0ILQB9CAAAAAAAAAAAAAAAAAsAAAACAA0AFAADAAAAAQAAAABfALogXwAtDgAFAAJ9CC0AfQgAAAAAAAAAAAAAAAAMAAAAAgANABQAAwAAAAEAAAAAXwC6IF8ALQ4ABQACfQgtAH0IAAAAAAAAAAAAAAAADQAAAAIADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAn0ILQB9CAAAAAAAAAAAAAAAAA4AAAACAA0AFAADAAAAAQAAAABfALogXwAtDgAFAAJ9CC0AfQgAAAAAAAAAAAAAAAAPAAAAAgANABQAAwAAAAEAAAAAXwC6IF8ALQ4ABQACfQhBAH0IAAAAAAAAAAAAAAAAEAAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAGVmBAAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAEQAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAGVmBQAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAEgAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAGVmBgAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAEwAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAGVmBwAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAFAAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAGVmCAAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAFQAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAGVmCQAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAFgAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAMxMBAAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAFwAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAMxMBQAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAGAAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAMxMBgAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAGQAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAMxMBwAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAGgAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAMxMCAAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAGwAAAAMADQAUAAMAAAABAAAAAF8AuiBfAC0OAAUAAgQAFAADAMxMCQAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAHAAAAAMADQAUAAMAAAAAAAAAAF8AuiBfAC0OAAUAAgQAFAADADIzBAAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAHQAAAAMADQAUAAMAAAAAAAAAAF8AuiBfAC0OAAUAAgQAFAADADIzBQAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAHgAAAAMADQAUAAMAAAAAAAAAAF8AuiBfAC0OAAUAAgQAFAADADIzBgAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAHwAAAAMADQAUAAMAAAAAAAAAAF8AuiBfAC0OAAUAAgQAFAADADIzBwAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAIAAAAAMADQAUAAMAAAAAAAAAAF8AuiBfAC0OAAUAAgQAFAADADIzCAAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAIQAAAAMADQAUAAMAAAAAAAAAAF8AuiBfAC0OAAUAAgQAFAADADIzCQAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAIgAAAAMADQAUAAMAAAAAAAAAAF8AuiBfAC0OAAUAAgQAFAADAAAABAAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAIwAAAAMADQAUAAMAAAAAAAAAAF8AuiBfAC0OAAUAAgQAFAADAAAABQAAACMAMAAuADAAfQhBAH0IAAAAAAAAAAAAAAAAJAAAAAMADQAUAAMAAAAAAAAAAF8AuiBfAC0OAAUAAgQAFAADAAAABgAAACMAMAAuADAAfQhBAH0I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</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0- 018-budget" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0- 018-budget.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="001-business-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\001-business-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 hesap planı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 hesap planı.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 hesap planı1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 hesap planı1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 hizmet satış" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 hizmet satış.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 KARTLAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 KARTLAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 muhasebe fişleri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 muhasebe fişleri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1leftarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1leftarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1rightarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1rightarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="002-people" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\002-people.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="002-square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\002-square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 HP rakamları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 HP rakamları.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 İŞLEMLER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 İŞLEMLER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 mizan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 mizan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2dowarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2dowarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2leftarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2leftarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2rightarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2rightarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2uparrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2uparrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="003-graphic-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\003-graphic-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 masraf merkezi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 masraf merkezi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 muavin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 muavin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3 RAPORLAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3 RAPORLAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 DÖVİZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 DÖVİZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 fiş listesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 fiş listesi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4 mm rakamları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4 mm rakamları.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="005-business-86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\005-business-86.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 bütçe kartları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 bütçe kartları.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 mutabakat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 mutabakat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 SERVİS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 SERVİS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 AYARLAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 AYARLAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 cari hesap kartları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 cari hesap kartları.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6 yaşlandırma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6 yaşlandırma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 babs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 babs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 DÖNESEL İŞLEMLER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 DÖNESEL İŞLEMLER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7 satal cari hesap kartları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7 satal cari hesap kartları.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="008-business-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\008-business-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 banka kartları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 banka kartları.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 çek raporları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 çek raporları.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 GÖRÜNÜM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 GÖRÜNÜM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 banka şube kodları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 banka şube kodları.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 fatura kur farkı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 fatura kur farkı.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9 fatura listesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9 fatura listesi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 kasa kartları 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 kasa kartları 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 masraf merkezi mizanı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 masraf merkezi mizanı.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11 personel kartları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11 personel kartları.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="012-business-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\012-business-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 çek senet kartları-travel-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 çek senet kartları-travel-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12 masraf merkezi muavin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12 masraf merkezi muavin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="013-business-79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\013-business-79.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 bütçe mizan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 bütçe mizan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13 demirbaş kartları " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13 demirbaş kartları .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 sabit kıymet mizan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 sabit kıymet mizan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="016-business-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\016-business-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18 rapor sihirbazı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18 rapor sihirbazı.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19 grid raporlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19 grid raporlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="020-sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\020-sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="021-money" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\021-money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="023-folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\023-folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="025-business-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\025-business-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="027-business-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\027-business-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="029-business-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\029-business-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="029-business-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\029-business-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="042-application-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\042-application-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="046-people-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\046-people-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="085-pen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\085-pen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="085-pen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\085-pen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="089-signature" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\089-signature.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="098-business-41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\098-business-41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="103-business-38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\103-business-38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="111-tool-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\111-tool-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="126-business-25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\126-business-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="230-money" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\230-money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adobe-PDF-Document-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adobe-PDF-Document-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Advances" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Advances.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agency" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agency.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert_Err" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert_Err.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arayagir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arayagir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barbackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beyanname işlemleri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beyanname işlemleri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CalcAmounts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CalcAmounts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calcel22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calcel22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calculator_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capraz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capraz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check-yes-ok-icone-3985-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check-yes-ok-icone-3985-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copyRec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copyRec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creditcard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\creditcard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CurrCancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CurrCancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="currency" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\currency.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Currency_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Currency_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dbConnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dbConnect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DocumentAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DocumentAdd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonemSonu işlemleri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DonemSonu işlemleri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="durbun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\durbun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E-mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E-mail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excel-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excel-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fieldlist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fieldlist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\find.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finished_work" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finished_work.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forbar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forbar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fullscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fullscreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green_Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green_Refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_get_world" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_get_world.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invoice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invoice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moneydelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moneydelete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="month" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\month.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MS-Word-2-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MS-Word-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newnew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newnew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OK24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OK24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok24_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ok24_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Okay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Okay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Okay16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Okay16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Okey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Okey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outlook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\outlook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parameters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parameters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Passive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Passive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Printer-16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Printer-16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="questionmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\questionmark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quickprint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quickprint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Raporlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raporlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="return" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\return.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsz_alert_err" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_alert_err.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsz_warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsz_warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="savereport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\savereport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sedna_k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sedna_k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sednalogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sednalogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelectAll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selectList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selectList.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Serviss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Serviss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Şablon aktarım" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Şablon aktarım.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="talimat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\talimat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tanımlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tanımlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TeamViewer_16px_534613_easyicon.net" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeamViewer_16px_534613_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transfer_right_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transfer_right_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TreeView_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TreeView_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtall.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unselectall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unselectall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="updateAmounts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updateAmounts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XML.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xml2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xml2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
